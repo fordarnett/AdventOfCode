@@ -9,7 +9,7 @@ class CodeAdventDay1 {
     public static void main(String[] args) throws FileNotFoundException {
         CodeAdventDay1 codeAdventDay1 = new CodeAdventDay1();
 
-        cypherLines = codeAdventDay1.getInput();
+        cypherLines = codeAdventDay1.getInput(true);
         int result = codeAdventDay1.calculateCalibrationValue();
         System.out.println("********The calibration value is " + result + "********");
 
